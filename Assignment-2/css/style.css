@@ -1,0 +1,142 @@
+body
+{     width: 100%;
+      height: 100%;  
+       margin: 0; 
+} 
+a:hover{color: cadetblue;}
+a
+{     text-decoration: none;
+      background-color: transparent;     
+      color:black; 
+}
+
+.header
+{
+    background-color:rgba(207, 29, 29, 0.925);
+    color: #fff;
+    border-color: #080808;
+    min-height: 50px;
+    border: 1px solid transparent;
+}
+
+.inner-header
+{
+    width: 80%;
+    margin: auto;
+}
+
+.logo
+{
+    float: left;
+    height: 50px;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.header-link
+{
+    float:right;    
+    font-size:14px;     
+    height: 50px;    
+    padding: 15px 15px;     
+    font-size:30px;     
+    font-weight: bold;
+}
+
+
+.content
+{
+    min-height: 600px;
+}
+
+.banner-image
+{
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url("./untitled.png") no-repeat center;
+    background-size: cover;
+}
+
+.inner-banner-image
+{
+    padding-top: 12%;
+    width: 80%;
+    margin: auto;
+}
+
+.banner_content
+
+{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    overflow:hidden;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+}
+
+footer{
+	background-color: rgba(0, 0, 0, 0.945);
+	color: #fff;
+	font-size: 14px;
+}
+.main{
+    border: 5px solid black;
+    background: burlywood;
+    font-size: 20px;
+}
+
+
+.images{
+    text-align: center;
+    margin: 80px 0;
+    
+}
+
+.images li {
+    display: inline-block;
+    width: 30%;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+.images li img{
+    max-width: 100%;
+}
+.images a:hover{
+    
+    padding: 5px 0px 0px 5px;
+}
+
+.conc{
+    background-color: lightslategrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+.one{
+    background-color: lightcyan;
+}
+.two{
+ text-align: center;
+}
+#sub{
+    text-align: center;
+}
+#link{
+    color: black;
+    border-bottom: dashed 1px black;
+}
+#link{a:hover{color: cadetblue;} 
+
+#fact{
+    background: blue !important; 
+}
+#extra{
+    font-size: 100px;
+    text-align: center;
+}
